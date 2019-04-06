@@ -32,7 +32,7 @@ public class BankConfiguration
     @Bean
 	public Connection getDbConnection()
 	{
-        Dbutil get=new Dbutil();
+        	Dbutil get=new Dbutil();
 		return get.getConnection(getDatabaseDetails());
 	}
 
